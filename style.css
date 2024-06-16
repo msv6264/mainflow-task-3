@@ -1,0 +1,100 @@
+body{
+    .poetsen-one-regular {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    font-family: "Poetsen One", sans-serif; 
+    background-color: #040d20; 
+}
+img{
+    padding: 0;
+    height: 700px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #171f2e;
+    color: white; 
+}
+h1
+{ 
+    margin: 15px;
+    padding: 0;
+    margin-left: 30px;
+    font-size: 3em;
+    font-weight: bold;
+}
+.f{
+    color: white;
+}
+.second-half{
+    color: yellow;
+}
+nav ul li
+{
+    column-gap: 5px;
+    display: inline;
+}
+nav ul li:last-child
+{
+    margin-right: 30px;
+}
+nav ul li a
+{
+    margin: 5px;
+    color: peachpuff;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color: rgb(128, 218, 240);
+}
+.content{
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-left: 30;
+}
+.intro {
+    color: white;
+    margin-top: 13%;
+    margin-left: 30px;
+    flex: 1;
+}
+
+.intro h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 7%;
+}
+.intro h2 {
+    font-size: 40px;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    margin-left: 7%;
+}
+.intro h3 {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    margin-left: 7%;
+}
+.name{
+    font-family: "Playball", cursive;
+    color: yellow;    
+}
+.web{
+    color: aqua;
+}
